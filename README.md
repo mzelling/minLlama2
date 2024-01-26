@@ -1,6 +1,6 @@
 # minLlama2
 
-minLlama2 is a simple implementation of Meta's Llama2 model for finetuning, drawing on HuggingFace and Karpathy's minGPT.
+minLlama2 is a simple implementation of Meta's Llama2 model for finetuning, drawing on Hugging Face and Karpathy's [minGPT](https://github.com/karpathy/minGPT).
 
 You can use it to finetune Llama2 7B on a single A100 without quantization or LoRA. Works great inside a Jupyter notebook.
 
