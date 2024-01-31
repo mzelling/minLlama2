@@ -77,7 +77,7 @@ class Trainer:
             x, y = batch
 
             # forward the model
-            logits, self.loss = model(x, targets=y)
+            logits, self.loss, _ = model(x, targets=y)
 
             # backprop and update the parameters
             model.zero_grad(set_to_none=True)
